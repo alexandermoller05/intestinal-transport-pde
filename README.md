@@ -143,9 +143,9 @@ Outputs include:
 
 ## Results
 
-The figure below shows the effect of viscosity on total glucose absorption.
+The figure below shows the effect of viscosity on total glucose absorption after 3hrs for various Peclet numbers.
 
-![Absorption vs Viscosity](figures/absorption_vs_viscosity.png)
+![Absorption vs Viscosity](figures/Absorbed_Glucose_3hr_Vmax=9_alpha=1-600.png)
 
 Key observations:
 
