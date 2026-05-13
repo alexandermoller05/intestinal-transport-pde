@@ -1,5 +1,7 @@
 # Intestinal Transport PDE Solver
 
+## Author: Alexander Moller Rivera
+
 A finite-volume BDF solver for a one-dimensional advection–dispersion–reaction model of glucose absorption in the human small intestine.
 
 This project implements and extends the intestinal digestion framework developed by Moxon et al., incorporating axial dispersion via the Taylor–Aris effective dispersion coefficient. The central aim is to investigate how viscosity-dependent transport mechanisms influence glucose absorption dynamics in the small intestine.
