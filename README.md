@@ -143,7 +143,7 @@ Outputs include:
 
 ## Results
 
-The figure below shows the effect of viscosity on total glucose absorption after 3hrs for various Peclet numbers.
+The figure below shows the effect of viscosity on total glucose absorption after 3hrs when Axial dispersion is accounted for (alpha = 1) vs. not accounted for (alpha = 600).
 
 ![Absorption vs Viscosity](figures/Absorbed_Glucose_3hr_Vmax=9_alpha1-600.png)
 
