@@ -1,6 +1,6 @@
 # Intestinal Transport PDE Solver
 
-## Author: Alexander Moller Rivera
+## Author- Alexander Moller Rivera
 
 A finite-volume BDF solver for a one-dimensional advection–dispersion–reaction model of glucose absorption in the human small intestine.
 
