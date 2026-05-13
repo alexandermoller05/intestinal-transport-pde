@@ -99,7 +99,7 @@ intestinal-transport-pde/
 │   ├── model.py            ← Conservative FV assembly: face fluxes,
 │   │                          RHS callable, mass_balance diagnostic
 │   ├── solver.py           ← simulate() wrapping scipy BDF
-│   └── plotting.py         ← 5 figure functions, thesis style
+│   └── plotting.py         ← 5 figure functions, used for thesis
 ├── scripts/
 │   └── run_simulation.py   ← Generates all 5 figures (~1–3 min)
 ├── figures/                ← All 5 PNGs, verified outputs
