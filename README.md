@@ -89,26 +89,22 @@ The PDE system is solved using:
 
 ```
 intestinal-transport-pde/
-│
-├── README.md
+├── README.md               ← Physics summary, usage, parameter table
 ├── requirements.txt
-├── LICENSE
-│
+├── LICENSE                 ← MIT
 ├── src/
-│   ├── model.py          # PDE definitions and finite-volume assembly
-│   ├── solver.py         # BDF time integration
-│   ├── parameters.py     # Physical and numerical parameters
-│   ├── transport.py      # Taylor–Aris dispersion, Stokes–Einstein diffusivity
-│   └── plotting.py       # Visualisation utilities
-│
+│   ├── parameters.py       ← All constants from Table 2 of thesis
+│   ├── transport.py        ← Stokes–Einstein Dm, Graetz–Lévêque K,
+│   │                          Taylor–Aris Dax (Eq. 20), Pe, τ-groups
+│   ├── model.py            ← Conservative FV assembly: face fluxes,
+│   │                          RHS callable, mass_balance diagnostic
+│   ├── solver.py           ← simulate() wrapping scipy BDF
+│   └── plotting.py         ← 5 figure functions, thesis style
 ├── scripts/
-│   └── run_simulation.py # Entry point
-│
-├── figures/
-│   └── absorption_vs_viscosity.png
-│
+│   └── run_simulation.py   ← Generates all 5 figures (~1–3 min)
+├── figures/                ← All 5 PNGs, verified outputs
 └── notebooks/
-    └── reproduction.ipynb
+    └── reproduction.ipynb  ← Cell-by-cell walkthrough
 ```
 
 ---
